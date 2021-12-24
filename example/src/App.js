@@ -1,5 +1,5 @@
 import React from 'react'
-import { useValidation } from 'use-react-form-validate'
+import { useValidation } from 'react-use-form-validate'
 
 const App = () => {
   let config = {

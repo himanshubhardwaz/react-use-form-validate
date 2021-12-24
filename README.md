@@ -2,7 +2,7 @@
 
 > Super customizable validation library for forms in react
 
-[![NPM](https://img.shields.io/npm/v/use-react-form-validate.svg)](https://www.npmjs.com/package/use-react-form-validate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-use-form-validate.svg)](https://www.npmjs.com/package/react-use-form-validate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -15,7 +15,7 @@ npm install --save react-use-form-validate
 ```jsx
 
 const Form = () => {
-  import { useValidation } from 'use-react-form-validate'
+  import { useValidation } from 'react-use-form-validate'
 
   let config = {
     fields: {
