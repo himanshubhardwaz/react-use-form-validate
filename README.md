@@ -1,4 +1,4 @@
-# use-react-form-validate
+# react-use-form-validate
 
 > Super customizable validation library for forms in react
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save use-react-form-validate
+npm install --save react-use-form-validate
 ```
 
 ## Usage
