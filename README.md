@@ -13,14 +13,72 @@ npm install --save use-react-form-validate
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
 
-import { useMyHook } from 'use-react-form-validate'
+const Form = () => {
+  import { useValidation } from 'use-react-form-validate'
 
-const Example = () => {
-  const example = useMyHook()
+  let config = {
+    fields: {
+      email: {
+        isRequired: { message: 'Email is Required' },
+        isEmail: { message: 'Please enter a valid Email address' }
+      },
+      password: {
+        isRequired: { message: 'Password is Required' }
+      }
+    },
+    onSubmit: context => {
+      if (context.isFormValid) {
+        console.log('Form is valid and ready to be submitted')
+      } else {
+        console.log('Form is valid and ready to be submitted')
+      }
+    },
+    showErrors: 'blur'
+  }
+
+  const { getFieldProps, getFormProps, errors } = useValidation(config)
+
   return (
-    <div>{example}</div>
+    <form {...getFormProps()}>
+      <input
+        {...getFieldProps('email')}
+        type='text'
+        placeholder='Email'
+      />
+      {
+        errors.email &&
+        <div>
+          <p>
+            {errors.email}
+          </p>
+        </div>
+      }
+
+      <div>
+        <input
+          {...getFieldProps('password')}
+          type='password'
+          placeholder='Password'
+        />
+        {
+          errors.password &&
+          <div>
+            <p>
+              {errors.password}
+            </p>
+          </div>
+        }
+      </div>
+
+      <div>
+        <button
+          type='submit'
+        >
+          SUBMIT
+        </button>
+      </div>
+    </form >
   )
 }
 ```
