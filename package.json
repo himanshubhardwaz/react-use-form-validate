@@ -1,10 +1,10 @@
 {
-  "name": "use-react-form-validate",
+  "name": "react-use-form-validate",
   "version": "1.0.0",
   "description": "Super customizable validation library for forms in react",
   "author": "himanshu76200",
   "license": "MIT",
-  "repository": "himanshu76200/use-react-form-validate",
+  "repository": "himanshu76200/react-use-form-validate",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
