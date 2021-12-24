@@ -1,11 +1,12 @@
 import React from 'react'
-import { useMyHook } from 'use-react-form-validate'
+// import { useMyHook } from 'use-react-form-validate'
 
 const App = () => {
-  const example = useMyHook()
+  // const example = useMyHook()
   return (
     <div>
-      {example}
+      Hello
+      {/* {example} */}
     </div>
   )
 }
