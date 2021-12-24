@@ -13,10 +13,9 @@ npm install --save react-use-form-validate
 ## Usage
 
 ```jsx
+import { useValidation } from 'react-use-form-validate'
 
 const Form = () => {
-  import { useValidation } from 'react-use-form-validate'
-
   let config = {
     fields: {
       email: {
