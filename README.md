@@ -30,7 +30,7 @@ const Form = () => {
       if (context.isFormValid) {
         console.log('Form is valid and ready to be submitted')
       } else {
-        console.log('Form is valid and ready to be submitted')
+        console.log('Form is not valid')
       }
     },
     showErrors: 'blur'
