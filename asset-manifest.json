@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-use-form-validate/static/css/main.2c6a48fe.chunk.css",
+    "main.js": "/react-use-form-validate/static/js/main.1116c769.chunk.js",
+    "main.js.map": "/react-use-form-validate/static/js/main.1116c769.chunk.js.map",
+    "runtime-main.js": "/react-use-form-validate/static/js/runtime-main.30b38ebb.js",
+    "runtime-main.js.map": "/react-use-form-validate/static/js/runtime-main.30b38ebb.js.map",
+    "static/js/2.76afc5b2.chunk.js": "/react-use-form-validate/static/js/2.76afc5b2.chunk.js",
+    "static/js/2.76afc5b2.chunk.js.map": "/react-use-form-validate/static/js/2.76afc5b2.chunk.js.map",
+    "index.html": "/react-use-form-validate/index.html",
+    "precache-manifest.48a5a5ef28431b7f6d431d705870144d.js": "/react-use-form-validate/precache-manifest.48a5a5ef28431b7f6d431d705870144d.js",
+    "service-worker.js": "/react-use-form-validate/service-worker.js",
+    "static/css/main.2c6a48fe.chunk.css.map": "/react-use-form-validate/static/css/main.2c6a48fe.chunk.css.map",
+    "static/js/2.76afc5b2.chunk.js.LICENSE.txt": "/react-use-form-validate/static/js/2.76afc5b2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30b38ebb.js",
+    "static/js/2.76afc5b2.chunk.js",
+    "static/css/main.2c6a48fe.chunk.css",
+    "static/js/main.1116c769.chunk.js"
+  ]
+}
