@@ -35,3 +35,6 @@ yarn-error.log*
 config.gypi
 CVS
 npm-debug.log
+
+dist
+example
