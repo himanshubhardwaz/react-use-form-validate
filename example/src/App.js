@@ -10,6 +10,30 @@ const App = () => {
       },
       password: {
         isRequired: { message: 'Password is Required' }
+      },
+      maxField: {
+        max: {
+          message: 'Max size exceeded',
+          length: 5
+        }
+      },
+      minField: {
+        min: {
+          message: 'Min size not fulfilled',
+          length: 5
+        }
+      },
+      equalField: {
+        equals: {
+          message: 'Does not match expected value',
+          value: 'React'
+        }
+      },
+      regexField: {
+        pattern: {
+          message: 'You can only enter alphabets in this field',
+          regex: /^[A-Za-z]+$/
+        }
       }
     },
     onSubmit: context => {
@@ -53,6 +77,70 @@ const App = () => {
           <div>
             <p>
               {errors.password}
+            </p>
+          </div>
+        }
+      </div>
+
+      <div>
+        <input
+          {...getFieldProps('maxField')}
+          type='text'
+          placeholder='Max 5 char'
+        />
+        {
+          errors.maxField &&
+          <div>
+            <p>
+              {errors.maxField}
+            </p>
+          </div>
+        }
+      </div>
+
+      <div>
+        <input
+          {...getFieldProps('minField')}
+          type='text'
+          placeholder='min 5 char'
+        />
+        {
+          errors.minField &&
+          <div>
+            <p>
+              {errors.minField}
+            </p>
+          </div>
+        }
+      </div>
+
+      <div>
+        <input
+          {...getFieldProps('equalField')}
+          type='text'
+          placeholder='Enter react'
+        />
+        {
+          errors.equalField &&
+          <div>
+            <p>
+              {errors.equalField}
+            </p>
+          </div>
+        }
+      </div>
+
+      <div>
+        <input
+          {...getFieldProps('regexField')}
+          type='text'
+          placeholder='Enter only alphabets in this field'
+        />
+        {
+          errors.regexField &&
+          <div>
+            <p>
+              {errors.regexField}
             </p>
           </div>
         }
