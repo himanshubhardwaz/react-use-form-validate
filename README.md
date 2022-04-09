@@ -175,7 +175,7 @@ const App = () => {
 
 ## License
 
-MIT © [himanshu76200](https://github.com/himanshu76200)
+MIT © [himanshubhardwaz](https://github.com/himanshubhardwaz)
 
 ---
 
