@@ -13,7 +13,12 @@ npm install --save react-use-form-validate
 ## Usage
 
 ```jsx
+import React from 'react'
 import { useValidation } from "react-use-form-validate"
+
+const validationFunction = (value) => {
+  return value === 'abc';
+}
 
 const App = () => {
   let config = {
@@ -35,7 +40,7 @@ const App = () => {
         min: {
           message: 'Min size not fulfilled',
           length: 5
-        }
+        },
       },
       equalField: {
         equals: {
@@ -48,7 +53,13 @@ const App = () => {
           message: 'You can only enter alphabets in this field',
           regex: /^[A-Za-z]+$/
         }
-      }
+      },
+      validatorField: {
+        customValidator: {
+          message: 'Validation failed by validator function',
+          validator: validationFunction,
+        }
+      },
     },
     onSubmit: context => {
       if (context.isFormValid) {
@@ -57,7 +68,6 @@ const App = () => {
         console.log('Form is valid and ready to be submitted')
       }
     },
-    // showError: `${formSubmitted ? 'always' : 'blur'}`
     showErrors: 'blur'
   }
 
@@ -161,16 +171,33 @@ const App = () => {
       </div>
 
       <div>
+        <input
+          {...getFieldProps('validatorField')}
+          type='text'
+          placeholder='Only accepted value is: "abc"'
+        />
+        {
+          errors.validatorField &&
+          <div>
+            <p>
+              {errors.validatorField}
+            </p>
+          </div>
+        }
+      </div>
+
+      <div>
         <button
           type='submit'
         >
           SUBMIT
         </button>
       </div>
-
     </form >
   )
 }
+
+export default App
 ```
 
 ## License

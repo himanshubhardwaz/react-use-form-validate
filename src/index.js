@@ -18,6 +18,7 @@ function validateField(fieldValue = '', fieldConfig) {
 
 function validateFields(fieldValues, fieldConfigs) {
   const errors = {}
+
   for (let fieldName in fieldConfigs) {
     const fieldConfig = fieldConfigs[fieldName]
     const fieldValue = fieldValues[fieldName]
