@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-use-form-validate/static/css/main.2c6a48fe.chunk.css",
-    "main.js": "/react-use-form-validate/static/js/main.8b17ad31.chunk.js",
-    "main.js.map": "/react-use-form-validate/static/js/main.8b17ad31.chunk.js.map",
+    "main.css": "/react-use-form-validate/static/css/main.94e08251.chunk.css",
+    "main.js": "/react-use-form-validate/static/js/main.e6ec5855.chunk.js",
+    "main.js.map": "/react-use-form-validate/static/js/main.e6ec5855.chunk.js.map",
     "runtime-main.js": "/react-use-form-validate/static/js/runtime-main.30b38ebb.js",
     "runtime-main.js.map": "/react-use-form-validate/static/js/runtime-main.30b38ebb.js.map",
     "static/js/2.76afc5b2.chunk.js": "/react-use-form-validate/static/js/2.76afc5b2.chunk.js",
     "static/js/2.76afc5b2.chunk.js.map": "/react-use-form-validate/static/js/2.76afc5b2.chunk.js.map",
     "index.html": "/react-use-form-validate/index.html",
-    "precache-manifest.7407a000b597f7262239fa64600846e1.js": "/react-use-form-validate/precache-manifest.7407a000b597f7262239fa64600846e1.js",
+    "precache-manifest.e6995069c65170e90793fbedd3eae101.js": "/react-use-form-validate/precache-manifest.e6995069c65170e90793fbedd3eae101.js",
     "service-worker.js": "/react-use-form-validate/service-worker.js",
-    "static/css/main.2c6a48fe.chunk.css.map": "/react-use-form-validate/static/css/main.2c6a48fe.chunk.css.map",
+    "static/css/main.94e08251.chunk.css.map": "/react-use-form-validate/static/css/main.94e08251.chunk.css.map",
     "static/js/2.76afc5b2.chunk.js.LICENSE.txt": "/react-use-form-validate/static/js/2.76afc5b2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.30b38ebb.js",
     "static/js/2.76afc5b2.chunk.js",
-    "static/css/main.2c6a48fe.chunk.css",
-    "static/js/main.8b17ad31.chunk.js"
+    "static/css/main.94e08251.chunk.css",
+    "static/js/main.e6ec5855.chunk.js"
   ]
 }
